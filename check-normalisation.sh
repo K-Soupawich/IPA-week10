@@ -21,8 +21,8 @@ set -uo pipefail
 
 STUDENT_NS="${1:-${STUDENT_NS:-}}"
 PANDORA_NS="${PANDORA_NS:-pandora}"
-INFRA_NODE="${INFRA_NODE:-worker2}"
-STUDENT_NODE="${STUDENT_NODE:-worker1}"
+INFRA_NODE="${INFRA_NODE:-k8s-worker2}"
+STUDENT_NODE="${STUDENT_NODE:-k8s-worker1}"
 
 pass=0
 fail=0
